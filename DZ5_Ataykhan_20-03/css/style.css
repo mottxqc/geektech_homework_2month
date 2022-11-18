@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: silver;
+    padding: 20px;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+
+input {
+    border: 2px solid teal;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    padding-left: 5px;
+}
+
+#create_button {
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid teal;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+}
+
+#todo_list {
+    margin: 0 auto;
+    width: 750px;
+}
+
+.block_text {
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    border: 2px solid teal;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.delete {
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.Edit {
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}

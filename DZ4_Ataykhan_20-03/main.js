@@ -31,7 +31,7 @@ const green = document.getElementById("green")
 const yellow = document.getElementById("yellow")
 const text = document.getElementById("text")
 
-var color = prompt("Введите цвет светофора: ").toLowerCase()
+let color = prompt("Введите цвет светофора: ").toLowerCase()
     if (color === "красный") {
         function svet() {
             red.innerHTML = "<b>STOP</b>"
